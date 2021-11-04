@@ -401,6 +401,10 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .probootstrap-section {
+    text-align: center;
+
+  }
 }
 
 .probootstrap-intro.probootstrap-intro-inner .probootstrap-intro-text {
@@ -720,7 +724,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-section {
-  padding: 5em 0;
+  padding: 3em 0;
   position: relative;
   z-index: 2;
 }
@@ -1016,7 +1020,6 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-footer {
-  padding: 3em 0 3em 0;
   position: relative;
 }
 
@@ -1062,11 +1065,15 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   float: left;
   width: 100%;
   margin-bottom: 30px;
+  padding: 20px;
 }
 
 .probootstrap-footer .probootstrap-footer-widget h4 {
   font-size: 20px;
   margin-bottom: 20px;
+}
+.probootstrap-footer .probootstrap-footer-widget h3 {
+  margin-top: 0px;
 }
 
 .probootstrap-footer .probootstrap-footer-link {
@@ -1507,6 +1514,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .service.left-icon .text {
   display: table-cell;
   padding-left: 30px;
+  text-align: initial;
 }
 
 .service.left-icon h3 {
@@ -1655,7 +1663,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 /* Flexslider override style */
 .slider-height, .flexslider, .flexslider .slides > li {
-  height: 800px;
+  height: 500px;
   overflow: hidden;
 }
 
@@ -1731,8 +1739,8 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .flexslider .slides > li {
-  background-size: cover;
-  background-position: center center;
+  background-size:cover;
+  background-position:initial;
   background-repeat: none;
 }
 
