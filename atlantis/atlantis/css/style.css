@@ -80,7 +80,7 @@ p, ul, ol, figure {
 a {
   -webkit-transition: .3s all;
   transition: .3s all;
-  color: #903479;
+  color: #FF7170;
 }
 
 a:hover, a:focus, a:active {
@@ -93,7 +93,7 @@ a.hover-reverse {
 }
 
 a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
-  color: #903479;
+  color: #FF7170;
   text-decoration: none;
 }
 
@@ -259,7 +259,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-main-nav li a:hover {
-  color: #903479;
+  color: #FF7170;
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav li a {
@@ -283,7 +283,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-main-nav li.probootstrap-cta a:hover {
   background: #ffffff;
-  color: #903479;
+  color: #FF7170;
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav li.probootstrap-cta {
@@ -297,8 +297,9 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-main-nav li.active a {
-  color: #903479;
-  border-bottom: 2px solid #903479;
+  color: #FF7170;
+  /* COLOR A REMPLAZAR: 903479 */
+  border-bottom: 2px solid #FF7170;
 }
 
 .probootstrap-main-nav li.active a:hover {
@@ -435,9 +436,9 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   bottom: 0;
   content: "";
   background: #ddf0f3;
-  background: -webkit-gradient(left top, right top, color-stop(0%, #ddf0f3), color-stop(100%, #903479));
-  background: -webkit-gradient(linear, left top, right top, from(#ddf0f3), to(#903479));
-  background: linear-gradient(to right, #ddf0f3 0%, #903479 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #ddf0f3), color-stop(100%, #FF7170));
+  background: -webkit-gradient(linear, left top, right top, from(#ddf0f3), to(#FF7170));
+  background: linear-gradient(to right, #ddf0f3 0%, #FF7170 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$firstcolor, endColorstr=$secondcolor, GradientType=1 );
   opacity: .8;
 }
@@ -496,7 +497,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   left: 0;
   width: 50px;
   height: 2px;
-  background: #903479;
+  background: #FF7170;
 }
 
 .probootstrap-intro .probootstrap-subtitle h2 a {
@@ -651,8 +652,8 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .btn.btn-primary {
-  border: 2px solid #903479;
-  background: #903479;
+  border: 2px solid #FF7170;
+  background: #FF7170;
   color: #ffffff;
 }
 
@@ -669,21 +670,21 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .btn.btn-ghost {
   background: transparent;
-  border: 2px solid #903479;
-  color: #903479;
+  border: 2px solid #FF7170;
+  color: #FF7170;
 }
 
 .btn.btn-ghost:hover {
-  background: #903479;
+  background: #FF7170;
   color: #ffffff;
-  border: 2px solid #903479;
+  border: 2px solid #FF7170;
 }
 
 .btn.btn-ghost:focus, .btn.btn-ghost:active {
   outline: none;
   background: transparent;
-  color: #903479;
-  border: 2px solid #903479;
+  color: #FF7170;
+  border: 2px solid #FF7170;
 }
 
 .btn.btn-ghost.btn-ghost-white {
@@ -694,13 +695,13 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .btn.btn-ghost.btn-ghost-white:hover {
   background: #ffffff;
-  color: #903479;
+  color: #FF7170;
 }
 
 .btn.btn-ghost.btn-ghost-white:focus, .btn.btn-ghost.btn-ghost-white:active {
   outline: none;
   background: #ffffff;
-  color: #903479;
+  color: #FF7170;
   border: 2px solid #ffffff;
 }
 
@@ -747,11 +748,11 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-section.probootstrap-section-colored, .probootstrap-section.probootstrap-section-dark {
-  background: #903479;
+  background: #FF7170;
   background: #ddf0f3;
-  background: -webkit-gradient(left top, right top, color-stop(0%, #ddf0f3), color-stop(100%, #903479));
-  background: -webkit-gradient(linear, left top, right top, from(#ddf0f3), to(#903479));
-  background: linear-gradient(to right, #ddf0f3 0%, #903479 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #ddf0f3), color-stop(100%, #FF7170));
+  background: -webkit-gradient(linear, left top, right top, from(#ddf0f3), to(#FF7170));
+  background: linear-gradient(to right, #ddf0f3 0%, #FF7170 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$firstcolor, endColorstr=$secondcolor, GradientType=1 );
 }
 
@@ -810,12 +811,12 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-section .heading-with-icon {
-  color: #903479;
+  color: #FF7170;
   font-size: 24px;
 }
 
 .probootstrap-section .heading-with-icon i {
-  color: #903479;
+  color: #FF7170;
 }
 
 .probootstrap-section-heading h2 {
@@ -922,7 +923,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-owl-navigation li a:hover {
-  background: #903479;
+  background: #FF7170;
   color: #ffffff;
 }
 
@@ -989,7 +990,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-half .text {
   padding: 100px;
-  background: #903479;
+  background: #FF7170;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1047,7 +1048,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-footer .probootstrap-backtotop a:hover, .probootstrap-footer .probootstrap-backtotop a:focus, .probootstrap-footer .probootstrap-backtotop a:active {
-  color: #903479 !important;
+  color: #FF7170 !important;
 }
 
 .probootstrap-footer .border-top {
@@ -1235,7 +1236,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-block-image-text .text h3 a:hover {
-  color: #903479;
+  color: #FF7170;
 }
 
 .probootstrap-block-image-text .text p.dark {
@@ -1326,11 +1327,11 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-blog-list li a:hover h4, .probootstrap-news-list li a:hover h4, .probootstrap-product-list li a:hover h4 {
-  color: #903479;
+  color: #FF7170;
 }
 
 .link-with-icon {
-  color: #903479;
+  color: #FF7170;
 }
 
 .link-with-icon i {
@@ -1405,7 +1406,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .nav-tabs.probootstrap-tabs > li > a, .nav-pills.probootstrap-tabs > li > a {
   border-radius: 0px;
   padding: 20px 30px;
-  background: #903479;
+  background: #FF7170;
   color: #ffffff;
   font-size: 16px;
   border: none !important;
@@ -1469,7 +1470,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .service .icon i {
   font-size: 40px;
   color: rgba(0, 0, 0, 0.2);
-  color: #903479;
+  color: #FF7170;
 }
 
 .service h3 {
@@ -1508,7 +1509,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .service.left-icon .icon .svg {
-  fill: #903479;
+  fill: #FF7170;
 }
 
 .service.left-icon .text {
@@ -1599,7 +1600,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .probootstrap-form .form-control:active, .probootstrap-form .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: #903479;
+  border-color: #FF7170;
   background: #ffffff;
 }
 
@@ -1658,7 +1659,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .with-icon.colored i {
-  color: #903479;
+  color: #FF7170;
 }
 
 /* Flexslider override style */
@@ -2250,7 +2251,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-primary-color {
-  color: #903479 !important;
+  color: #FF7170 !important;
 }
 
 .probootstrap-secondary-color {
