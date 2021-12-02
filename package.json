@@ -1,16 +1,20 @@
 {
-"devDependencies": {
-  "gulp": "latest",
-  "gulp-sass": "latest",
-  "gulp-uglify": "latest",
-  "gulp-rename": "latest",
-  "gulp-notify": "latest",
-  "gulp-minify-css": "latest",
-  "gulp-concat": "latest",
-  "gulp-plumber": "latest",
-  "browser-sync": "latest",
-  "gulp-sourcemaps": "latest",
-  "gulp-autoprefixer": "latest",
-  "gulp-clean-css": "latest"
-  }
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"server-dev": "browser-sync start --server --directory --files 'noticias.html, js/noticias/noticias.js'"
+	},
+	"devDependencies": {
+		"gulp": "latest",
+		"gulp-sass": "latest",
+		"gulp-uglify": "latest",
+		"gulp-rename": "latest",
+		"gulp-notify": "latest",
+		"gulp-minify-css": "latest",
+		"gulp-concat": "latest",
+		"gulp-plumber": "latest",
+		"browser-sync": "latest",
+		"gulp-sourcemaps": "latest",
+		"gulp-autoprefixer": "latest",
+		"gulp-clean-css": "latest"
+	}
 }
