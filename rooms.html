@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="css/styles-merged.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="https://unpkg.com/intro.js/minified/introjs.min.css">
 
 		<!--[if lt IE 9]>
 			<script src="js/vendor/html5shiv.min.js"></script>
@@ -53,7 +54,7 @@
 		</header>
 		<!-- END: header -->
 
-		<section class="probootstrap-slider flexslider probootstrap-inner">
+		<section class="probootstrap-slider flexslider probootstrap-inner" data-title= "Navegación guiada" data-intro= "Habitaciones del hotel">
 			<ul class="slides">
 				<li style="background-image: url(img/roombanner.jpg);" class="overlay">
 					<div class="container">
@@ -72,9 +73,9 @@
 		</section>
 
 		<section class="probootstrap-section">
-			<div class="container">
+			<div class="container" data-title= "Habitaciones" data-intro= "Incluye gran variedad de habitaciones">
 				<div class="row">
-					<div class="col-sm-6 col-xs-12">
+					<div class="col-sm-6 col-xs-12" data-title= "Habitacion matrimonial" data-intro= "Habitacion sencilla, con un precio accesible de $29.00 por noche">
 						<div class="probootstrap-room">
 							<a href="#"><img src="img/habitacion-sencilla.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></a>
 							<div class="text">
@@ -91,7 +92,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-6 col-xs-12">
+					<div class="col-sm-6 col-xs-12" data-title= "Habitacion doble" data-intro= "Habitacion de doble cama, con un precio accesible de $35.00 por noche">
 						<div class="probootstrap-room">
 							<a href="#"><img src="img/habitacion-doble.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></a>
 							<div class="text">
@@ -109,7 +110,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-6 col-xs-12">
+					<div class="col-sm-6 col-xs-12" data-title= "Habitacion de colegas" data-intro= "Habitacion de 3 camas, con un precio accesible de $40.00 por noche">
 						<div class="probootstrap-room">
 							<a href="#"><img src="img/habitacion-triple.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></a>
 							<div class="text">
@@ -125,7 +126,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-xs-12">
+					<div class="col-sm-6 col-xs-12" data-title= "Habitacion tipo Suite" data-intro= "Habitacion lujosa con un precio accesible de $70.00 por noche">
 						<div class="probootstrap-room">
 							<a href="#"><img src="img/habitacion-matrimonial.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></a>
 							<div class="text">
@@ -143,7 +144,7 @@
 					</div>
 				</div>
 
-				<div class="row">
+				<div class="row" data-title= "Compromiso de calidad" data-intro= "El hotel Sol y Luna, incluye varios beneficios para sus huéspedes">
 					<div class="col-md-12 text-center">
 						<h2>Siempre la mejor opción</h2>
 						<p class="mb50"><img src="img/curve.svg" class="svg" alt="Free HTML5 Bootstrap Template"></p>
@@ -187,7 +188,7 @@
 		</section>
 
 		<!-- START: footer -->
-		<footer role="contentinfo" class="probootstrap-footer">
+		<footer role="contentinfo" class="probootstrap-footer" data-title= "Información" data-intro= "Informacion de contacto del hotel">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
@@ -266,6 +267,10 @@
 		<script src="js/scripts.min.js"></script>
 		<script src="js/main.min.js"></script>
 		<script src="js/custom.js"></script>
+		<script src = "https://unpkg.com/intro.js/minified/intro.min.js"> </script>
+		<script>
+			introJs().start();
+		</script>
 
 
 	</body>
