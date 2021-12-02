@@ -31,10 +31,8 @@ const peticion = () => {
             let src = i.src;
             let alt = i.alt;
             let come = i.coments;
-            // console.log(c2)
             if(c == 3){
                 c = 1;
-                // console.log(c2)
                  plantilla = `
                 <div class="clearfix visible-sm-block"></div>
 
@@ -77,7 +75,7 @@ const peticion = () => {
             plantilla = plantilla.replace("IMAGEN", src);
             plantilla = plantilla.replace("ALT", alt);
             plantilla = plantilla.replace("COMENTARIO", come);
-            console.log(plantilla);
+            // console.log(plantilla);
             document.getElementById('cambio').innerHTML+= plantilla;
             
         }
@@ -87,4 +85,40 @@ const peticion = () => {
 
 
 }
+
 peticion()
+const buscador = () => {
+    let texto = document.querySelector('input')
+  
+  
+    texto.addEventListener('keyup', () => {
+      let texto = document.querySelector('input').value 
+  
+      let elementos = document.getElementsByClassName('col-md-4 col-sm-6 col-xs-12')
+      // console.log(elementos);
+      if(texto.length > 0){
+  
+        for (let e of elementos){
+            //  console.log(e.innerText);
+            //  console.log(texto);
+          if(e.innerText.includes(texto)){
+            console.log("hola")
+            e.classList.add('d-inline')
+          } else {
+            e.classList.add('d-none')
+          }      
+        }
+      } else {
+        for(let elemento of elementos){
+          elemento.classList.remove('d-none')
+          elemento.classList.remove('d-inline')
+        }
+      }
+  
+      
+    })
+  
+  
+  
+  }
+  buscador();
