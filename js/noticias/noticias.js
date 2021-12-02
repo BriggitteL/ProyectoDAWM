@@ -60,12 +60,12 @@ const search_notices = () => {
 
 	Array.from(cards).forEach(card => {
 		if (search_key === "")
-			card.classList.remove("d-none");
+			card.classList.remove("hidden");
 		else {
 			let notice_title = card.querySelector("a.hover-reverse");
 			let match_title = notice_title.innerText.toLowerCase().includes(search_key);
 			if (!match_title)
-				card.classList.add("d-none");
+				card.classList.add("hidden");
 		}
 	})
 }
