@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/styles-merged.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://unpkg.com/intro.js/minified/introjs.min.css">
 
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
@@ -55,7 +56,7 @@
   </header>
   <!-- END: header -->
 
-  <section class="probootstrap-slider flexslider probootstrap-inner">
+  <section class="probootstrap-slider flexslider probootstrap-inner" data-title= "Banner" data-intro= "Equipo de desarrollo">
     <ul class="slides">
        <li style="background-image: url(img/equipotrabajo.jpg);" class="overlay">
           <div class="container">
@@ -74,10 +75,10 @@
   </section>
   
   <section class="probootstrap-section">
-    <div class="container">
+    <div class="container" data-title= "Equipo de desarrollo" data-intro= "Informacion de los desarrolladores del proyecto">
       <div class="row">
 
-        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="col-md-4 col-sm-6 col-xs-12" data-title= "Briggitte López" data-intro= "Informacion de Briggitte López">
           <div class="probootstrap-room">
             <a href="#"><img src="img/bl.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></a>
             <div class="text">
@@ -86,7 +87,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="col-md-4 col-sm-6 col-xs-12" data-title= "Lizbeth Vergara" data-intro= "Informacion de Lizbeth Vergara">
           <div class="probootstrap-room">
             <a href="#"><img src="img/lv.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></a>
             <div class="text">
@@ -97,7 +98,7 @@
           </div>
         </div>
         <div class="clearfix visible-sm-block"></div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="col-md-4 col-sm-6 col-xs-12" data-title= "Willy Mateo" data-intro= "Informacion de Willy Mateo">
           <div class="probootstrap-room">
             <a href="#"><img src="img/wm.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></a>
             <div class="text">
@@ -108,7 +109,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="col-md-4 col-sm-6 col-xs-12" data-title= "Rafael Montalvo" data-intro= "Informacion de Rafael Montalvo">
           <div class="probootstrap-room">
             <a href="#"><img src="img/rm.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></a>
             <div class="text">
@@ -128,7 +129,7 @@
   
 
   <!-- START: footer -->
-  <footer role="contentinfo" class="probootstrap-footer">
+  <footer role="contentinfo" class="probootstrap-footer" data-title= "Información" data-intro= "Informacion de contacto del hotel">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -207,6 +208,10 @@
   <script src="js/scripts.min.js"></script>
   <script src="js/main.min.js"></script>
   <script src="js/custom.js"></script>
+  <script src = "https://unpkg.com/intro.js/minified/intro.min.js"> </script>
+		<script>
+			introJs().start();
+		</script>
 
   </body>
 </html>
