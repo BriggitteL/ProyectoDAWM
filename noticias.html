@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="css/styles-merged.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="https://unpkg.com/intro.js/minified/introjs.min.css">
 
 		<!--[if lt IE 9]>
 			<script src="js/vendor/html5shiv.min.js"></script>
@@ -53,7 +54,7 @@
 		</header>
 		<!-- END: header -->
 
-		<section class="probootstrap-slider flexslider probootstrap-inner">
+		<section class="probootstrap-slider flexslider probootstrap-inner" data-title= "Banner" data-intro= "Informacion principal de las noticias del hotel">
 			<ul class="slides">
 				<li style="background-image: url(img/playac.jpg);" class="overlay">
 					<div class="container">
@@ -77,7 +78,7 @@
 			</div>
 		</div>
 
-		<section class="probootstrap-section">
+		<section class="probootstrap-section" data-title= "Noticas" data-intro= "Noticias y acontecimientos mas importantes en el hotel">
 			<div class="container">
 				<div id="cambio" class="rownoticias">
 					<!-- <div class="clearfix visible-lg-block visible-md-block"></div>-->
@@ -85,7 +86,7 @@
 			</div>
 		</section>
 
-		<section class="probootstrap-half">
+		<section class="probootstrap-half" data-title= "Pet friendly" data-intro= "Compromiso del hotel con las mascotas de sus huéspedes">
 			<div class="image" style="background-image: url(img/pet.jpg);"></div>
 			<div class="text">
 				<div class="probootstrap-animate fadeInUp probootstrap-animated">
@@ -105,7 +106,7 @@
 		</section>
 
 		<!-- START: footer -->
-		<footer role="contentinfo" class="probootstrap-footer">
+		<footer role="contentinfo" class="probootstrap-footer" data-title= "Información" data-intro= "Informacion de contacto del hotel">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
@@ -184,5 +185,9 @@
 		<script src="js/main.min.js"></script>
 		<script src="js/custom.js"></script>
 		<script src="js/noticias/noticias.js"></script>
+		<script src = "https://unpkg.com/intro.js/minified/intro.min.js"> </script>
+		<script>
+			introJs().start();
+		</script>
 	</body>
 </html>
