@@ -36,7 +36,7 @@
 						<li class="hidden-xs probootstrap-logo-center"><a href="index.html"><img src="img/LogoSolyLuna1.png" class="hires" width="181" height="50" alt="Free Bootstrap Template by uicookies.com"></a></li>
 						<li><a href="index.html">Principal</a></li>
 						<li><a href="noticias.html">Noticias</a></li>
-						<li><a href="about.html">Servicios</a></li>            
+						<li><a href="about.html">Servicios</a></li>
 						<li><a href="rooms.html">Habitaciones</a></li>
 						<li class="active"><a href="contact.html">Contáctenos</a></li>
 						<li><a href="team.html">Equipo de desarrollo</a></li>
@@ -79,32 +79,50 @@
 				<div class="row probootstrap-gutter60">
 					<div class="col-md-8" data-title= "Formulario de contacto" data-intro= "Registre sus datos">
 						<h2 class="mt0">Formulario de contacto</h2>
+
 						<form action="#" method="post" class="probootstrap-form">
 							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<label for="fname">Nombres</label>
-										<input type="text" class="form-control" id="fname" name="fname" required data-title= "Nombre" data-intro= "Digite su nombre">
+								<div class="panel panel-danger">
+									<div class="panel-heading">Paso 1</div>
+									<div class="panel-body">
+										<div class="col-md-6">
+											<div class="form-group">
+												<label for="fname">nombres</label>
+												<input type="text" class="form-control" id="fname" name="fname" required data-title= "nombre" data-intro= "digite su nombre">
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<label for="lname">apellidos</label>
+												<input type="text" class="form-control" id="lname" name="lname" required data-title= "apellidos" data-intro= "digite sus apellidos">
+											</div>
+										</div>
 									</div>
 								</div>
-								<div class="col-md-6">
+							</div>
+							<div class="panel panel-danger">
+								<div class="panel-heading">Paso 2</div>
+								<div class="panel-body">
 									<div class="form-group">
-										<label for="lname">Apellidos</label>
-										<input type="text" class="form-control" id="lname" name="lname" required data-title= "Apellidos" data-intro= "Digite sus apellidos">
+										<label for="email">Correo</label>
+										<input type="email" class="form-control" id="email" name="email" required data-title= "Correo electrónico" data-intro= "Digite su correo electrónico">
 									</div>
+									<div class="form-group">
+										<label for="city">Lugar de origen</label>
+										<input type="text" class="form-control" id="city" name="city" data-title= "Lugar de origen" data-intro= "Digite su lugar de origen">
+									</div>
+
 								</div>
 							</div>
-							<div class="form-group">
-								<label for="email">Correo</label>
-								<input type="email" class="form-control" id="email" name="email" required data-title= "Correo electrónico" data-intro= "Digite su correo electrónico">
-							</div>
-							<div class="form-group">
-								<label for="city">Lugar de origen</label>
-								<input type="text" class="form-control" id="city" name="city" data-title= "Lugar de origen" data-intro= "Digite su lugar de origen">
-							</div>
-							<div class="form-group">
-								<label for="message">Mensaje</label>
-								<textarea cols="30" rows="10" class="form-control" id="message" name="message" required data-title= "Mensaje" data-intro= "Escriba el mensaje que desea enviar"></textarea>
+							<div class="panel panel-danger">
+								<div class="panel-heading">Paso 2</div>
+								<div class="panel-body">
+									<div class="form-group">
+										<label for="message">Mensaje</label>
+										<textarea cols="30" rows="10" class="form-control" id="message" name="message" required data-title= "Mensaje" data-intro= "Escriba el mensaje que desea enviar"></textarea>
+									</div>
+
+								</div>
 							</div>
 							<div class="form-group">
 								<input type="submit" class="btn btn-primary btn-lg" id="submit" name="submit" value="Enviar" data-title= "Enviar" data-intro= "Envie su formulario">
@@ -114,8 +132,8 @@
 					<div class="col-md-4" data-title= "Ubicación" data-intro= "ubicación satelital del hotel Sol y Luna">
 						<h2 class="mt0">¿Cómo llegar?</h2>
 						<ul class="probootstrap-contact-info">
-							<li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996.627490116037!2d-80.8540749708231!3d-2.333444399893707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMsKwMjAnMDAuNCJTIDgwwrA1MScxMi43Ilc!5e0!3m2!1ses!2sec!4v1636086012561!5m2!1ses!2sec" 
-									width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+							<li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996.627490116037!2d-80.8540749708231!3d-2.333444399893707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMsKwMjAnMDAuNCJTIDgwwrA1MScxMi43Ilc!5e0!3m2!1ses!2sec!4v1636086012561!5m2!1ses!2sec"
+		   width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 							</li>
 							<li><i class="icon-location2"></i> <span>261 Barrio Inglés, Callejón 4 entrando por Queen Elizabeth, Ancón 240101</span></li>
 							<li><i class="icon-mail"></i><span>solyluna@domain.com</span></li>
@@ -134,10 +152,10 @@
 					<p><img src="img/curve_white.svg" class="seperator" alt="Free HTML5 Bootstrap Template"></p>
 					<div class="row">
 						<div class="col-md-6">
-							<p>Ancón surgió alrededor del 5 de noviembre de 1911 como campo petrolero de la compañía inglesa Anglo Ecuadorian Oilfields Limited. En ese año se perforó allí el primer pozo petrolero de Ecuador, llamado Ancon-001.</p>    
+							<p>Ancón surgió alrededor del 5 de noviembre de 1911 como campo petrolero de la compañía inglesa Anglo Ecuadorian Oilfields Limited. En ese año se perforó allí el primer pozo petrolero de Ecuador, llamado Ancon-001.</p>
 						</div>
 						<div class="col-md-6">
-							<p>Turistas de todas partes del mundo se quedan encantados con la tranquilidad, la naturaleza, los paisajes que combinan el bosque tropical seco, los acantilados y el mar donde los locales practican bodyboard y surf al amanecer y atardecer.</p>    
+							<p>Turistas de todas partes del mundo se quedan encantados con la tranquilidad, la naturaleza, los paisajes que combinan el bosque tropical seco, los acantilados y el mar donde los locales practican bodyboard y surf al amanecer y atardecer.</p>
 						</div>
 					</div>
 					<p><a href="#" class="link-with-icon white">Leer más<i class=" icon-chevron-right"></i></a></p>
