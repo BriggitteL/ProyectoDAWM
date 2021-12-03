@@ -72,10 +72,14 @@
 				</li>
 			</ul>
 		</section>
+
+		<!--Búsqueda-->
 		<div class="row row-cols-1 row-cols-md-3 g-4 mx-2 my-2">
-			<div class="container-fluid" data-title= "Buscador" data-intro= "Buscador de noticias">
-				<input type="search" class="form-control rounded" placeholder="Ingrese texto para filtrar noticias..." aria-label="Search" aria-describedby="search-addon" data-title= "Ingrese noticia" data-intro= "Ingrese informacion acerca de la noticia que desea buscar" />
-				<button class="btn btn-outline-primary" data-title= "Buscar" data-intro= "De click en el botón para buscar su noticia">Buscar</button>
+			<div class="container" id="busqueda">
+				<div class="row">
+					<input type="search" class="form-control rounded" placeholder="Ingrese texto para filtrar noticias..." aria-label="Search" aria-describedby="search-addon" />
+					<button class="btn btn-outline-primary" id="botonB">Buscar</button>
+				</div>
 			</div>
 		</div>
 
@@ -108,7 +112,7 @@
 
 		<!-- START: footer -->
 		<footer role="contentinfo" class="probootstrap-footer" data-title= "Información" data-intro= "Informacion de contacto del hotel">
-			<div class="container">
+			<div class="container container-sm container-md">
 				<div class="row">
 					<div class="col-md-4">
 						<div class="probootstrap-footer-widget">
