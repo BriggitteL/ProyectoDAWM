@@ -13,6 +13,13 @@
   font-style: normal;
 }
 
+#busqueda{
+  padding-top: 20px;
+}
+
+#botonB{
+  margin-top: 20px;
+}
 html {
   overflow-x: hidden;
   font-size: 1em;
